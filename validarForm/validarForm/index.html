@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validar Formularios</title>
+  <link href="./bootstrap-5.3.3/css/bootstrap.min.css" rel="stylesheet">
+  <script src="./js/jquery-3.7.1.min.js"></script>
+  <script src="./bootstrap-5.3.3/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/justValidate.min.js"></script>
+  <script src="./js/sweetAlert.min.js"></script>
+  <script src="./js/index.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container-fluid bg-primary text-white">
+      <div class="row text-center p-5">
+        <h1 class="h1">Desarrollo de Aplicaciones Web</h1>
+        <h2 class="h2">Semestre 2024-2</h2>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="row mt-5 mb-5">
+        <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi libero totam molestiae itaque numquam dolorum consectetur consequatur cumque quidem, earum magni blanditiis illum aliquam fugiat aspernatur eaque dicta animi dolor debitis cupiditate necessitatibus qui? Ut repellendus pariatur soluta vel aliquid cum dicta ratione animi. Quas, nihil incidunt iusto doloribus, aspernatur deleniti sapiente quidem necessitatibus velit blanditiis odit. Tenetur aliquid earum suscipit quaerat molestiae natus amet itaque necessitatibus debitis id quis dicta laboriosam dolor quia voluptas cumque architecto aperiam, nisi numquam incidunt eum facere! Necessitatibus quam hic impedit molestias ipsum, ut sed soluta accusantium itaque, eius non nesciunt cum illum eum blanditiis officia dicta! Fuga nobis, ullam, provident perferendis, facilis voluptatibus obcaecati qui corrupti similique assumenda fugit recusandae architecto error dignissimos cupiditate numquam alias. Quaerat, iusto unde cum, amet repudiandae tenetur molestiae nulla nemo quia ea quos libero, laudantium nobis a veniam harum dicta sit repellendus temporibus? Numquam accusamus placeat labore tempore! Atque nostrum, odit vel nisi saepe magnam, ex quas aut ipsa obcaecati laborum iusto minus. Tempore eos et quo omnis inventore dolor soluta amet maxime molestias ex aliquam distinctio, exercitationem iusto accusamus dolore cumque doloribus debitis molestiae saepe blanditiis! Cum molestiae vitae molestias asperiores aut esse ipsum atque quam.</p>
+      </div>
+      <form id="datosGenerales" autocomplete="off">
+        <h2 class="h2">Registro de Datos Generales</h2>
+        <div class="row">
+          <div class="col-xs-12 col-md-6 col-lg-4 mb-4 mt-3">
+            <div class="form-floating">
+              <input type="text" id="boleta" name="boleta" class="form-control" placeholder="Número de boleta">
+              <label for="boleta">Número de Boleta</label>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-4 mb-4 mt-3">
+            <div class="form-floating">
+              <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Nombre Completo">
+              <label for="nombre">Nombre Completo</label>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-4 mb-4 mt-3">
+            <div class="form-floating">
+              <input type="text" id="apellidos" name="apellidos" class="form-control" placeholder="Apellidos">
+              <label for="apellidos">Apellidos</label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-6 col-lg-4 mb-4 mt-3">
+           <div class="form-floating">
+              <input type="text" id="correo" name="correo" class="form-control" placeholder="Correo Electrónico">
+              <label for="correo">Correo Electrónico</label>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-4 mb-4 mt-3">
+            <div class="form-floating">
+              <input type="password" id="contrasena" name="contrasena" class="form-control" placeholder="Contraseña">
+              <label for="contrasena">Contraseña</label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="d-grid">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </main>
+  <footer class="bg-body-tertiary text-center text-lg-start fixed-bottom">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2024 Copyright:
+      <a class="text-body" href="https://jaortizr.github.io">JAOR</a>
+    </div>
+  </footer>
+</body>
+</html>

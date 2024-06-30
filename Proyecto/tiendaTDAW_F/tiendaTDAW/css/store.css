@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.aside-toggle {
+    display: none; /* Ocultamos el botón por defecto */
+    padding: 10px 20px;
+    background-color: #ff8800; /* Color naranja */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000; /* Aseguramos que el botón esté siempre encima */
+}
+
+.aside-content {
+    width: 250px;
+    background-color: #f8f9fa;
+    padding: 15px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: max-height 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    .aside-toggle {
+        display: block; /* Mostramos el botón en pantallas pequeñas */
+    }
+
+    .aside-content {
+        width: 100%; /* Hacemos que el aside ocupe toda la pantalla en dispositivos pequeños */
+        max-height: 0; /* Ocultamos el aside por defecto */
+        overflow-y: auto; /* Añadimos la barra de desplazamiento vertical */
+    }
+
+    .aside-content.show {
+        max-height: 500px; /* Ajusta esto según el contenido del aside */
+    }
+}

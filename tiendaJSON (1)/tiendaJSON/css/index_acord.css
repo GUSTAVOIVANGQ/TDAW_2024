@@ -1,0 +1,18 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2.titulo{
+  background-color: #25AAE2;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+p.descripcion{
+  text-align: justify;
+}
+
+i.comprar{
+  cursor: pointer;
+}

@@ -1,0 +1,60 @@
+/* Estilos para el contenedor principal del resumen de la orden */
+#order-summary {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Estilos para los detalles de la orden */
+.order-details {
+    margin-bottom: 20px;
+}
+
+/* Estilos para la tabla de productos */
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+.product-table th, .product-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.product-table th {
+    background-color: #f2f2f2;
+}
+
+/* Colores principales: Azul y Naranja */
+#order-summary {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#order-summary h1, #order-summary h2 {
+    color: #333; /* Color de texto principal */
+}
+
+.order-details p {
+    margin: 5px 0;
+    color: #555; /* Color de texto secundario */
+}
+
+.product-table th {
+    background-color: #3498db; /* Azul */
+    color: #fff; /* Texto blanco */
+}
+
+.product-table td {
+    background-color: #e67e22; /* Naranja */
+    color: #fff; /* Texto blanco */
+}

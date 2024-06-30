@@ -1,0 +1,105 @@
+:root{
+  --azul1: #0080C9;
+  --azul2: #2ABAEF;
+}
+
+*{
+  font-family: verdana;
+  text-align: justify;
+}
+
+body{
+  background-image: url("./../imgs/patternShark.png");
+}
+
+.txt-center{
+  text-align: center;
+}
+
+h2.seccion{
+  background: rgb(0,102,153);
+  background: linear-gradient(90deg, rgba(0,102,153,1) 0%, rgba(0,153,230,1) 30%, rgba(254,254,254,1) 100%);
+  padding: 1rem;
+  color:white;
+}
+
+h6.fecha{
+  text-align: right;
+}
+
+footer div.row p{
+  display: flex;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--azul1);
+  color:white;
+  font-weight: bolder;
+}
+
+i.fa-solid{
+  color:var(--azul2);
+}
+
+section#oferta h3{
+  color:var(--azul1);
+}
+
+table{
+  width: 100%;
+}
+
+table thead tr th{
+  background-color: var(--azul1);
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+table tbody tr td{
+  background-color: var(--azul2);
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+ul li{
+  list-style:square;
+  list-style-position:outside;
+}
+
+.subTitulo{
+  font-style: italic;
+  margin-top: -15px;
+  color:grey;
+}
+
+input[type="text"],input[type="email"],textarea{
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid var(--azul2);
+  padding: 0.8rem;
+}
+
+input:focus, textarea:focus{
+  outline-color: #fefefe;
+}
+
+button{
+  width: 100%;
+  border: none;
+  background-color: white;
+  padding: 20px;
+  font-size: 1.1rem;
+  font-weight: bolder;
+  cursor: pointer;
+  background-color: #ddd;
+  color: #666;
+  text-align: center;
+}
+
+button:hover{
+  background-color: #ccc;
+}
+
+

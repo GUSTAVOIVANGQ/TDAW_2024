@@ -1,0 +1,23 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nombreProducto{
+  background-color: #26ABE3;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.descProducto{
+  text-align: justify;
+  font-size:10pt;
+}
+
+i:hover{
+  cursor:pointer;
+}
+
+img{
+  filter:drop-shadow(8px 8px 10px gray);
+}
